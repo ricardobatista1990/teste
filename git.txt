@@ -1,0 +1,7 @@
+git init
+git clone https://github.com/ricardobatista1990/teste.git
+git status
+git add .    ou  git add --all
+git commit -m "mensagem da alteração"
+git push origin main    ou  git push origin master
+
