@@ -1,0 +1,37 @@
+Get-History
+
+PS C:\Users\jrica\Documents\Laboratório de Informatica\Nova pasta\teste> Get-History
+
+  Id CommandLine
+  -- -----------
+   1 cd "C:\Users\jrica\Documents\Laboratório de Informatica\Nova pasta"
+   2 git init
+   3 git clone https://github.com/ricardobatista1990/teste.git
+   4 git status
+   5 git branch
+   6 git diff
+   7 git add .
+   8 git add --all
+   9 git add .
+  10 git commit -m "teste"
+  11 git push
+  12 git push origin
+  13 cd teste
+  14 git push origin
+  15 git status
+  16 git commit -m "teste2"
+  17 git status
+  18 git add --all
+  19 git push origin
+  20 git status
+  21 git add --all
+  22 git commit -m "teste2"
+  23 git push origin main
+  24 git status
+  25 git add .
+  26 git commit -m "teste3"
+  27 git status
+  28 git push origin main
+
+
+PS C:\Users\jrica\Documents\Laboratório de Informatica\Nova pasta\teste>

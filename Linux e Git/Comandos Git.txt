@@ -1,0 +1,25 @@
+git init -> Cria o repositório (.git folder) no diretório atual, tornando os ficheiros rastreáveis.
+
+git clone <URL> -> Descarrega um repositório Git remoto (ex: do GitHub) para o computador local.
+
+git status -> Imprime informações básicas sobre o estado do diretório de trabalho, como ficheiros modificados. Use sempre que estiver confuso sobre o estado.
+
+git branch <nome-novo-ramo> -> Cria um novo ramo (referência/ponto de controlo local) no estado atual do repositório.
+
+git checkout <nome-ramo-existente> -> Permite reverter o estado dos ficheiros para o ponto de controlo do ramo existente, mantendo alterações não commited localmente.
+
+git checkout -b <nome-novo-ramo> -> Atalho para criar um novo ramo e mudar para ele num único comando.
+
+git diff -> Mostra uma lista das alterações feitas nos ficheiros editados (texto anterior com -, novo com +). git diff <ramo-A> <ramo-B> compara dois ramos.
+
+git add <files> -> Marca as alterações nos ficheiros como "staged" (prontas para serem commited). Use git add --all ou git add . para todos os ficheiros pendentes.
+
+git commit -> Faz o commit dos ficheiros staged. Abre um editor para a mensagem, ou use git commit -m “mensagem” para mensagem direta.
+
+git push origin <nome-ramo> -> Publica o ramo no repositório remoto (carrega o ramo para a origem remota).
+
+git fetch -> Descarrega as últimas informações sobre o repositório de origem (como todos os ramos), mas não altera os ficheiros locais, apenas atualiza dados de rastreio.
+
+git merge <outro-ramo> -> Funde as revisões do <outro-ramo> no ramo atual local.
+
+git pull origin master -> Atalho que executa as operações fetch e merge em simultâneo.

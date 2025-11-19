@@ -1,0 +1,74 @@
+🖥️ 📌 Comandos Linux mais usados (essenciais)
+📂 1. Navegação e diretórios
+Comando	Função
+pwd	Mostra o diretório atual
+ls	Lista arquivos
+ls -l	Lista detalhada
+ls -a	Lista incluindo arquivos ocultos
+cd pasta	Entra na pasta
+cd ..	Volta um nível
+cd /caminho	Vai para o caminho indicado
+mkdir nome	Cria diretório
+rmdir nome	Remove diretório vazio
+📁 2. Manipulação de arquivos
+Comando	Função
+touch arquivo	Cria arquivo vazio
+cp origem destino	Copia arquivos
+mv origem destino	Move ou renomeia
+rm arquivo	Remove arquivo
+rm -r pasta	Remove pasta e conteúdo
+cat arquivo	Exibe conteúdo
+less arquivo	Exibe conteúdo paginado
+head arquivo	Primeiras linhas
+tail arquivo	Últimas linhas
+⚙️ 3. Sistema e informações
+Comando	Função
+uname -a	Informações do sistema
+top	Processos em tempo real
+htop	Igual ao top (interface melhor)
+df -h	Espaço em disco
+du -h	Tamanho de arquivos/pastas
+free -h	Uso de memória
+uptime	Tempo ligado
+🔧 4. Processos
+Comando	Função
+ps	Lista processos
+ps aux	Lista completa
+kill PID	Finaliza processo
+kill -9 PID	Força finalização
+pkill nome	Mata processos por nome
+🌐 5. Rede
+Comando	Função
+ping site	Teste de conexão
+ip a	Mostra interfaces
+ifconfig	(compatibilidade)
+curl URL	Download / teste HTTP
+wget URL	Baixar arquivo
+ssh usuario@ip	Conectar via SSH
+📦 6. Pacotes (Debian/Ubuntu)
+Comando	Função
+sudo apt update	Atualiza lista de pacotes
+sudo apt upgrade	Atualiza sistema
+sudo apt install pacote	Instala
+sudo apt remove pacote	Remove
+🔐 7. Permissões
+Comando	Função
+chmod 755 arquivo	Altera permissões
+chown usuario:grupo arquivo	Altera dono
+sudo	Executa como root
+📦 8. Arquivos compactados
+Comando	Função
+tar -cvf arq.tar pasta	Criar tar
+tar -xvf arq.tar	Extrair tar
+tar -czvf arq.tar.gz pasta	Criar tar.gz
+tar -xzvf arq.tar.gz	Extrair tar.gz
+zip -r arq.zip pasta	Criar zip
+unzip arq.zip	Extrair zip
+🧰 9. Outros úteis
+Comando	Função
+history	Lista histórico
+clear	Limpa tela
+man comando	Ajuda do comando
+echo texto	Imprime texto
+nano arquivo	Editor simples
+sudo su	Vira root
