@@ -1,0 +1,109 @@
+Como criar um Personal Access Token (classic) no GitHub
+1️⃣ Acesse sua conta no GitHub
+
+Entre em:
+🔗 https://github.com
+
+2️⃣ Vá para as configurações pessoais
+
+No canto superior direito:
+
+Foto do perfil → Settings
+
+3️⃣ Abra "Developer settings"
+
+No menu à esquerda, vá em:
+
+➡️ Developer settings
+
+4️⃣ Abra “Personal access tokens”
+
+Depois clique em:
+
+➡️ Personal access tokens
+➡️ Tokens (classic)
+
+5️⃣ Clique em “Generate new token (classic)”
+
+Botão azul:
+
+👉 Generate new token (classic)
+👉 Escolha Generate new token (classic)
+
+⚙️ 6️⃣ Configure o token
+• Name (obrigatório)
+
+Dê um nome, por exemplo:
+Token VS Code
+Git no Windows
+
+• Expiration
+
+Escolha a validade:
+
+30 dias
+
+60 dias
+
+90 dias
+
+Custom
+
+No expiration (não recomendado, mas funciona)
+
+• Scopes (permissões)
+
+Para usar Git (clone, push, pull), marque:
+
+✔ repo
+✔ read:user (opcional)
+
+Se for trabalhar só em repositórios privados e públicos, basta repo.
+
+🔐 7️⃣ Clique em "Generate token"
+
+No final da página:
+
+👉 Generate token
+
+🟩 8️⃣ Copie o token IMEDIATAMENTE
+
+⚠️ O GitHub mostra o token UMA ÚNICA VEZ.
+
+Copie e guarde num local seguro.
+
+Exemplo de token (não real):
+
+ghp_1AbCDeFGhijKLMnoPqRStUVWxyZ123456789
+
+🧩 9️⃣ Usar o token no Git (VS Code ou PowerShell)
+
+Quando o VS Code ou Git pedir:
+
+Username: seu usuário GitHub
+Password: cole o TOKEN
+
+Exemplo:
+
+git push origin main
+Username: ricardobatista1990
+Password: cole aqui o token
+
+🟦 10️⃣ OPCIONAL — Salvar token no Windows
+
+Para não pedir senha sempre:
+
+git config --global credential.helper manager-core
+
+
+Isso salva o token de forma segura no Windows Credential Manager.
+
+🎉 Pronto! Agora você tem seu Personal Access Token (classic) configurado e funcionando.
+
+Se quiser, posso também te ensinar a:
+
+✅ configurar o GitHub CLI
+✅ usar SSH keys (não precisa de token)
+✅ corrigir erro de autenticação no VS Code
+
+Quer algum desses?
